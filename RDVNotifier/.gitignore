@@ -1,0 +1,29 @@
+# Ignore Gradle project-specific cache directory
+.gradle
+
+# Ignore Gradle build output directory
+build
+
+# --- SYSTEM ---
+.DS_Store
+*.log
+
+# --- NEXTJS / BACKEND ---
+backend/node_modules/
+backend/.next/
+backend/.env*
+!backend/.env.example
+
+# --- ANDROID / KOTLIN ---
+android-app/.gradle/
+android-app/build/
+android-app/local.properties
+android-app/captures/
+android-app/*.jks
+android-app/*.keystore
+android-app/google-services.json
+
+# --- SECRETS & TOOLS ---
+.env
+.env.local
+serviceAccountKey.json
